@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <title> LL Q1 </title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section class="header">
+    <nav>
+      <a href="LL.html"></a>
+      <h2>S5 Studio</h2>
+      <div class="nav-links" id="navLinks">
+        <ul>
+          <li><a href="LL.html">HOME</a></li>
+          <li><a href="Content.html">OUR CONTENT</a></li>
+          <div class="Drop">
+            <ul>
+              <li><a href="Q1.html">Quarter 1</a></li>
+              <li><a href="Q2.html">Quarter 2</a></li>
+            </ul>
+          </div>
+          <li><a href="about.html">ABOUT US</a></li>
+          <li><a href="about.html">OUR EVENTS</a></li>
+          <li><a href="about.html">CONTACT US</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="text-box">
+      </br></br></br></br></br></br></br></br></br></br></br></br></br></br> </br></br></br></br></br></br></br></br><h1>Documentation of Group 5</h1>
+      <p>Group 5 is here to compile all files and ideas that were crucial to all steps that lead us here.</p>
+      <a href="about.html"class="hero-btn">Proceed to the Documentation</a>
+      
+    </div>
+    </section>
+</body>
+
+</html>
