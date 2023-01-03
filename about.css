@@ -3,12 +3,13 @@
 *{
   margin:0;
   padding:0;
+  box-sizing:border-box;
   font-family:'Poppins', sans-serif;
 
 }
 body{
   min-height:100vh;
-  background:linear-gradient(#AC7D88,#F8ECD1);
+ background:linear-gradient(#d9a7c7,#fffcdc);
 }
 .header{
   min-height:100vh
@@ -56,96 +57,35 @@ text-align:right;
 .nav-links ul li:hover::after{
   width:100%;
 }
-.text-box{
-  width:90%
-  color:#fff;
-  position:absolute;
-  top:50%;
-  left:50%;
-  transform:translate(-50%,-50%);
+.wrapper{
+  background: #fff;
+  width:900px;
+  border-radius:16px;
+  padding:20px;
+}
+h2{
   text-align:center;
 }
-.text-box h1{
-  font-size:62px;
-  color:#fff;
+hr{
+  width:100px;
+  margin:10px auto;
 }
-.text-box p{
-  margin:10px 0 40px;
-  font-size:14px;
-  color:#fff;
-}
-.documents{
-  background:transparent;
+.team{
   display:flex;
-  flex-direction:column;
-  justify-content:center;
-  align-items:center;
-  height:100%;
-  padding 10rem 0;
+  
 }
-.documents h1{
-  background-color:#EFD9D1;
-  background-image:Linear-gradient(to top, #FFE6E6 0%, #D3E4CD 100%);
-  font-size:40px;
-  background-size:100%;
-  -webkit-background-clip:text;
-  -moz-background-clip:text;
-  -webkit-text-fill-color:transparent;
-  -moz-text-fill-color:transparent;
-  margin-bottom:2rem;
-  font-size:2.5rem;
+.team-members{
+  margin:8px;
+  
 }
-.documents_wrapper{
-display:grid;
-grid-template-columns:1fr 1fr 1fr 1fr;
-grid-template-rows:1fr;
-
-}
-.documents_card{
+img{
+  width:100px;
+  height:100px;
+  border-radius:50%;
   margin:10px;
-  height:425px;
-  width:300px;
-  border-radius:4px;
-  display:flex;
-  flex-direction:column;
-  justify-content:center;
-  color:#fff;
-  background-image:linear-gradient(#D66D75, #E29587);
-  transition:0.3 ease-in;
-  text-decoration:none;
 }
-.documents_card h2{
+h4,p{
   text-align:center;
-  text-decoration:none;
-}
-.documents_card p{
-  text-align:center;
-  margin-top:24px;
-  font-size:20px;
-  text-decoration:none;
-}
-.documents_btn{
-  display:flex;
-  justify-content:center;
-  margin-top:16px;
-  text-decoration:none;
-  text-decoration:none;
-}
-.documents_card button{
-  color:#fff;
-  padding:14px 24px;
-  border:none;
-  outline:none;
-  border-radius:4px;
-  background:#fff;
-  font-size:1rem;
-  text-decoration:none;
-}
-.documents_card button:hover{
-  cursor:pointer;
-}
-.documents_card:hover{
-  transform:scale(1.075);
-  transition:0.3s ease-in;
-  cursor:pointer;
+  font-size:12px;
+  margin:7px;
 }
