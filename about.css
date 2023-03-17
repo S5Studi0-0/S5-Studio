@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;900&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  font-family:'Poppins', sans-serif;
+
+}
+body{
+  min-height:100vh;
+  box-sizing: border-box;
+  background:linear-gradient(#AC7D88,#F8ECD1);
+}
+.header{
+  min-height:100vh
+  width:100%;
+  background-position:center;
+  background-size:cover;
+  position:relative;
+  text-decoration:none;
+
+}
+nav{
+  display:flex;
+  padding:2% 6%;
+  justify-content:space-between;
+  align-items:center;
+  color:#fff;
+}
+.nav-links{
+flex:1;
+text-align:right;
+
+}
+.nav-links ul li{
+  list-style:none;
+  display:inline-block;
+  padding:8px 12px;
+  position:relative;
+}
+.nav-links ul li a{
+  color:#fff;
+  text-decoration:none;
+  font-size:15;
+  
+}
+
+.nav-links ul li::after{
+  content:'';
+  width:0%;
+  height:2px;
+  background:#DEB6AB;
+  display:block;
+  margin:auto;
+  transition:0.5s;
+}
+.nav-links ul li:hover::after{
+  width:100%;
+}
+.text-box{
+  width:90%
+  color:#fff;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  text-align:center;
+}
+.text-box h1{
+  font-size:62px;
+  color:#fff;
+}
+.text-box p{
+  margin:10px 0 40px;
+  font-size:14px;
+  color:#fff;
+}
+.documents{
+  background:transparent;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  height:100%;
+  padding 10rem 0;
+}
+.documents h1{
+  background-color:#EFD9D1;
+  background-image:Linear-gradient(to top, #FFE6E6 0%, #D3E4CD 100%);
+  font-size:40px;
+  background-size:100%;
+  -webkit-background-clip:text;
+  -moz-background-clip:text;
+  -webkit-text-fill-color:transparent;
+  -moz-text-fill-color:transparent;
+  margin-bottom:2rem;
+  font-size:2.5rem;
+}
+.documents_wrapper{
+display:grid;
+grid-template-columns:1fr 1fr 1fr 1fr;
+grid-template-rows:1fr;
+
+}
+.documents_card{
+  margin:10px;
+  height:425px;
+  width:300px;
+  border-radius:4px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  color:#fff;
+  background-image:linear-gradient(#D66D75, #E29587);
+  transition:0.3 ease-in;
+  text-decoration:none;
+}
+.documents_card h2{
+  text-align:center;
+  text-decoration:none;
+}
+.documents_card p{
+  text-align:center;
+  margin-top:24px;
+  font-size:20px;
+  text-decoration:none;
+}
+.documents_btn{
+  display:flex;
+  justify-content:center;
+  margin-top:16px;
+  text-decoration:none;
+  text-decoration:none;
+}
+.documents_card button{
+  color:#fff;
+  padding:14px 24px;
+  border:none;
+  outline:none;
+  border-radius:4px;
+  background:#fff;
+  font-size:1rem;
+  text-decoration:none;
+}
+.documents_card button:hover{
+  cursor:pointer;
+}
+.documents_card:hover{
+  transform:scale(1.075);
+  transition:0.3s ease-in;
+  cursor:pointer;
+}
+
+.wrapper{
+  background: #fff;
+  width:900px;
+  border-radius:16px;
+  padding:20px;
+}
+h2{
+  text-align:center;
+}
+hr{
+  width:100px;
+  margin:10px auto;
+}
+.team{
+  display:flex;
+  
+}
+.team-members{
+  margin:8px;
+  
+}
+img{
+  width:100px;
+  height:100px;
+  border-radius:50%;
+  margin:10px;
+}
+h4,p{
+  text-align:center;
+  font-size:12px;
+  margin:7px;
+}
+nav ul li ul{
+  display:none;
+  position:absolute;
+  background-image:linear-gradient(#AC7D88,#F8ECD1);
+  
+}
+
+nav ul li:hover ul{
+  display:block;
+  position:absolute;
+  
+}
+nav uli li ul li a{
+  padding:8px 14px;
+}
+nav ul li ul li a:hover{
+  background-color:gray;
+}
